@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 function UseEffect() {
   let[count, setCount] =useState(0)
   useEffect(() => {
-    alert("Hello i am meet")
-  },[])//[] is showing one time use effect 
+    alert("Hello i am meet",count)
+  },[count])//[] is showing one time use effect 
 
   const addValue=()=>{
     setCount(count+1)
