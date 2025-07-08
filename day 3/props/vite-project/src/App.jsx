@@ -1,13 +1,15 @@
 import BgChanger from './components/BgChanger.jsx'
 import Card from './components/Card.jsx'
 import Person from './components/Person.jsx'
+import UseEffect from './components/UseEffect.jsx'
 import UseState from './components/UseState.jsx'
 
 function App() {
   return (
     <div>
         {/* <UseState/> */}
-        <BgChanger/>
+        {/* <BgChanger/> */}
+        <UseEffect/>
     </div>
   )
 }
