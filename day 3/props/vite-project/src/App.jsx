@@ -12,6 +12,7 @@ function App() {
         {/* <BgChanger/> */}
         {/* <UseEffect/> */}
         <Timer/>
+        {/* to do list .....stopwatch ..start stop restart  */}
     </div>
   )
 }
